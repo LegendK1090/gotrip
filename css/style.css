@@ -1,0 +1,223 @@
+@import url("fonts.css");
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+}
+.header-nav {
+  background: #3e8989;
+}
+.container {
+  max-width: 1070px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-list {
+  display: flex;
+}
+.header-nav-list a {
+  padding: 36px 30px 45px 0;
+  color: white;
+  font-family: "Rubik-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-nav-list {
+  padding: 9px 0 20px 0;
+}
+.header-nav .container {
+  padding: 37px 0 20px 0;
+}
+.header-content{
+  background: url(../img/pic.png);
+  min-height: 700px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  gap: 20px;
+}
+.header-content h1{
+  color: #FFF;
+  font-family: "Rubik-SemiBold";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header-content p{
+  color: #FFF;
+  font-family: "Rubik-Medium";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-content a{
+  border-radius: 30px;
+  background: #B4436C;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-family: "Inter-SemiBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header-content a:hover{
+background-color: #FFF;
+color: #B4436C;
+transition: 300ms;
+}
+.main h1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 80px 0 50px 0;
+  color: #3E8989;
+  font-family: "Inter-SemiBold";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal
+}
+.main p{
+  color: #000;
+  font-family: "Rubik-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 20px;
+}
+.about{
+display: flex;
+gap: 20px;
+}
+.right p{
+max-width: 545px;
+width: 100%;
+}
+.Catalog{
+  color: #3E8989;
+  font-family: "Inter-SemiBold";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.clothes ul{
+display: flex;
+gap: 20px;
+text-align: center;
+}
+.clothes a{
+color: black;
+font-family: "Inter-SemiBold";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: normal;
+}
+.clothes a:hover{
+transition: 300ms;
+color: #B4436C;
+}
+.Catalog h2{
+padding: 100px 0 50px 0;
+}
+.Catalog p{
+  max-width: 555px;
+  width: 100%;
+  color: #000;
+  font-family: "Rubik-Regular";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact__info{
+display: flex;
+justify-content: space-between;
+}
+.contact{
+padding: 0 0 104px 0;
+}
+.contact h2{
+  color: #3E8989;
+  font-family: "Inter-SemiBold";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 100px 0 50px 0;
+}
+.contact p{
+  color: #000;
+  font-family: "Rubik-Regular";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 555px;
+  width: 100%;
+}
+.tel{
+
+  display: flex;flex-direction: column;
+}
+.tel a{
+  color: #000;
+  font-family: "Rubik-Regular";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer{
+  background: #3E8989;
+}
+.footer-nav{
+  font-family: "Rubik-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 40px 0 60px;
+}
+
+.footer ul{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.footer a{
+color: #fff;
+}
+.footer p{
+padding: 118px 0 0 0;
+text-align: center;
+font-size: 14px;
+font-family: "Rubik-Regular";
+font-weight: 400;
+color: #FFF;
+}
